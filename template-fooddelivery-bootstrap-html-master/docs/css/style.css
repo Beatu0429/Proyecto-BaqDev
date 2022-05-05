@@ -3043,7 +3043,8 @@ input[type="button"].btn-block {
   margin-right: 1rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 50%; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 
@@ -3087,6 +3088,11 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%; }
+
+  .bx{
+    font-size: 32px;
+    color: teal ;
+  }
 
 @media (max-width: 575.98px) {
   .navbar-expand-sm > .container,
@@ -7179,7 +7185,8 @@ img {
   margin: 0 30px;
   border-bottom: double medium #e5e3d6; }
   .navbar .navbar-brand img {
-    max-height: 40px; }
+    max-height: 45px;
+    border-radius: 50%; }
 
 .maincontent {
   border: double medium #e5e3d6;
@@ -7190,6 +7197,8 @@ img {
 
 .mt-50 {
   margin-top: 50px; }
+
+  
 
 @media (min-width: 768px) {
   .h-md-100 {
