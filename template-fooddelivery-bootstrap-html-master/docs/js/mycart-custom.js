@@ -76,19 +76,20 @@ $(function () {
     affixCartIcon: true,
     checkoutCart: function(products) {
       $.each(products, function(){
-        console.log(this);
+        console.log(this); // información para el pedido
+        window.location.href = "./login.html"
       });
     },
     clickOnAddToCart: function($addTocart){
       goToCartIcon($addTocart);
-    },
-    getDiscountPrice: function(products) {
-      var total = 0;
-      $.each(products, function(){
-        total += this.quantity * this.price;
-      });
-      return total * 0.5;
-    }
+     },
+    // getDiscountPrice: function(products) {
+    //   var total = 0;
+    //   $.each(products, function(){
+    //     total += this.quantity * this.price;
+    //   });
+    //   return total * 0.5;
+    // }
   });
 
 });
